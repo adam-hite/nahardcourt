@@ -1,0 +1,25 @@
+{
+  "name": "nah",
+  "version": "1.0.0",
+  "description": "Official NAH custom Wordpress theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joerstom/nahbikepolo.git"
+  },
+  "keywords": [
+    "bikepolo"
+  ],
+  "author": "Adam Hite",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joerstom/nahbikepolo/issues"
+  },
+  "homepage": "https://github.com/joerstom/nahbikepolo#readme",
+  "devDependencies": {
+    "gulp": "^4.0.1"
+  }
+}

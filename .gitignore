@@ -127,7 +127,6 @@ wp-content/plugins/hello.php
 ## Custom ###
 /upgrade/
 /uploads/
-/themes/*
 !/themes/NAH/
 docker-compose.yml
 

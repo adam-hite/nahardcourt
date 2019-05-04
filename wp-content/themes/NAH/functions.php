@@ -122,6 +122,8 @@ add_action( 'widgets_init', 'nah_widgets_init' );
 function nah_scripts() {
 	wp_enqueue_style( 'nah-style', get_stylesheet_uri() );
 
+	wp_enqueue_style( 'main', get_template_directory_uri() . '/assets/css/main.css', array(), null );
+
 	wp_enqueue_script( 'nah-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'nah-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );

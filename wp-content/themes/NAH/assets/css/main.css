@@ -1,0 +1,26 @@
+/*!
+ * nah-wp-theme v0.0.1
+ * The official Wordpress theme for NAH
+ * (c) 2019 Adam Hite
+ * MIT License
+ * https://github.com/adam-hite/nahardcourt.git
+ */
+
+/**
+ * @section Base Styles
+ */
+/* line 5, src/sass/components/_base.scss */
+body {
+  font-size: 125%;
+  margin: 0 auto;
+  max-width: 42em;
+  width: 88%;
+}
+
+/* line 12, src/sass/components/_base.scss */
+input,
+textarea,
+select,
+button {
+  font: inherit;
+}

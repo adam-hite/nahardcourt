@@ -1,25 +1,34 @@
 {
   "name": "nah-wp-theme",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "The official Wordpress theme for NAH",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "main": "./dist/your-main-js-file.js",
+  "author": {
+    "name": "Adam Hite",
+    "url": "http://adam-hite.github.io"
   },
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adam-hite/nahardcourt.git"
+    "url": "https://github.com/adam-hite/nahardcourt.git"
   },
-  "keywords": [
-    "bike-polo"
-  ],
-  "author": "Adam Hite",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/adam-hite/nahardcourt/issues"
-  },
-  "homepage": "https://github.com/adam-hite/nahardcourt#readme",
   "devDependencies": {
-    "gulp": "^4.0.1"
+    "browser-sync": "^2.26.5",
+    "del": "3.0.0",
+    "gulp": "4.0.0",
+    "gulp-autoprefixer": "6.0.0",
+    "gulp-concat": "2.6.1",
+    "gulp-cssnano": "2.1.3",
+    "gulp-flatmap": "1.0.2",
+    "gulp-header": "2.0.5",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-jshint": "2.1.0",
+    "gulp-optimize-js": "1.1.0",
+    "gulp-rename": "1.4.0",
+    "gulp-sass": "4.0.2",
+    "gulp-terser": "1.1.7",
+    "jshint": "2.9.6",
+    "jshint-stylish": "2.2.1",
+    "lazypipe": "1.0.1"
   }
 }

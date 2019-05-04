@@ -124,10 +124,6 @@ wp-content/plugins/hello.php
 
 # End of https://www.gitignore.io/api/node,sass,composer,wordpress
 
-## Custom ###
-/upgrade/
-/uploads/
-
 # Docker project generated files to ignore
 #  if you want to ignore files created by your editor/tools,
 #  please consider a global .gitignore https://help.github.com/articles/ignoring-files
@@ -237,17 +233,11 @@ Thumbs.db
 *.tar
 *.zip
 
-# ignore everything in the "wp-content" directory, except:
-# "mu-plugins" directory
-# "plugins" directory
-# "themes" directory
-wp-content/*
-!wp-content/themes/NAH
+# PLUGINS
+/wp-content/plugins/
 
-# ignore these plugins from the core
-wp-content/plugins/hello.php
-
-# ignore specific themes
+/wp-content/index.php
+/wp-content/themes/index.php
 wp-content/themes/twenty*/
 
 # CUSTOM #

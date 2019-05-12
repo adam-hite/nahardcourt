@@ -2,7 +2,7 @@
 /**
  * Example of a single WPSL store template for the Twenty Fifteen theme.
  * 
- * @package Twenty_Fifteen
+ * @package NAH
  */
 
 get_header(); ?>
